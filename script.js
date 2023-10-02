@@ -346,8 +346,8 @@ function handleLoadedSpriteImage(previewSprite, hoveredPosition) {
 
     //get the row column for extraction
     const { row, column } = findRowColumnForSpriteFrameExtraction(hoveredPosition);
-    const imageXInSprite = SPRITE_IMG_WIDTH * (row);
-    const imageYInSprite = SPRITE_IMG_HEIGHT * (column);
+    const imageXInSprite = SPRITE_IMG_WIDTH * (column);
+    const imageYInSprite = SPRITE_IMG_HEIGHT * (row);
     var ImageData = ctx.getImageData(imageXInSprite, imageYInSprite, 190, 80);
     seekPreviewCanvas.getContext('2d').putImageData(ImageData, 0, 0);
     const url = seekPreviewCanvas.toDataURL();
