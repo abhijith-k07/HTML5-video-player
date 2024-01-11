@@ -1,4 +1,5 @@
 # HTML5-video-player
+
 A zero dependency HTML5 custom video player
 
 Features
@@ -13,8 +14,10 @@ Features
 9. pause screen
 10. Auto hide of controls when video is playing
 
+    https://github.com/abhijith-k07/HTML5-video-player/assets/88900086/679dd61c-c328-445a-82a5-a4e56e0d4cfd
+
 ## image Preview
-The image preview needs backend to generate the previee images called sprite images.
+The image preview needs backend to generate the preview images called sprite images.
 To generate sprite images i have used a python script from this repo https://github.com/flavioribeiro/video-thumbnail-generator
 
 The player currently call an end point to get one such sprite image, in a real scenario we need to
